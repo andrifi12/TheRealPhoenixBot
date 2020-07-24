@@ -9,7 +9,7 @@ If you want to create your own bot, you can basically follow the steps given [he
 OR
 
 # Pɧơɛnıх
-[! [Menyebarkan] ( https://www.herokucdn.com/deploy/button.svg )] ( https://heroku.com/deploy?template= https://github.com/agung-762/TheRealPhoenixBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/agung-762/TheRealPhoenixBot.git)
 
 ## Credits
 • [SkittBot](https://github.com/skittles9823/SkittBot) for stickers module.
