@@ -19,27 +19,27 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 ENV = bool(os.environ.get('ENV', False))
 
 if ENV:
-    TOKEN = os.environ.get('TOKEN', None)
+    TOKEN = os.environ.get('1303678864:AAFAa6gNGqABQqnhxd_2s9AQuB-sYGRkC2Q', None)
     try:
-        OWNER_ID = int(os.environ.get('OWNER_ID', None))
+        OWNER_ID = int(os.environ.get('1154565101', None))
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
     MESSAGE_DUMP = os.environ.get('MESSAGE_DUMP', None)
-    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", None)
+    OWNER_USERNAME = os.environ.get("NLydiaW", None)
 
     try:
-        SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
+        SUDO_USERS = set(int(x) for x in os.environ.get("1296045680", "1154565101").split())
     except ValueError:
         raise Exception("Your sudo users list does not contain valid integers.")
 
     try:
-        SUPPORT_USERS = set(int(x) for x in os.environ.get("SUPPORT_USERS", "").split())
+        SUPPORT_USERS = set(int(x) for x in os.environ.get("1154565101", "1296045680").split())
     except ValueError:
         raise Exception("Your support users list does not contain valid integers.")
 
     try:
-        WHITELIST_USERS = set(int(x) for x in os.environ.get("WHITELIST_USERS", "").split())
+        WHITELIST_USERS = set(int(x) for x in os.environ.get("1224044847", "1296045680", "1154565101").split())
     except ValueError:
         raise Exception("Your whitelisted users list does not contain valid integers.")
 
